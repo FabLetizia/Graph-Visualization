@@ -1,0 +1,191 @@
+{
+    "nodeDataArray": [
+        {
+            "key": 1,
+            "text": "Node 1"
+        },
+        {
+            "key": 2,
+            "text": "Node 2"
+        },
+        {
+            "key": 3,
+            "text": "Node 3"
+        },
+        {
+            "key": 4,
+            "text": "Node 4"
+        },
+        {
+            "key": 5,
+            "text": "Node 5"
+        },
+        {
+            "key": 6,
+            "text": "Node 6"
+        },
+        {
+            "key": 7,
+            "text": "Node 7"
+        },
+        {
+            "key": 8,
+            "text": "Node 8"
+        },
+        {
+            "key": 9,
+            "text": "Node 9"
+        },
+        {
+            "key": 10,
+            "text": "Node 10"
+        },
+        {
+            "key": 11,
+            "text": "Node 11"
+        },
+        {
+            "key": 12,
+            "text": "Node 12"
+        },
+        {
+            "key": 13,
+            "text": "Node 13"
+        },
+        {
+            "key": 14,
+            "text": "Node 14"
+        },
+        {
+            "key": 15,
+            "text": "Node 15"
+        },
+        {
+            "key": 16,
+            "text": "Node 16"
+        },
+        {
+            "key": 17,
+            "text": "Node 17"
+        },
+        {
+            "key": 18,
+            "text": "Node 18"
+        },
+        {
+            "key": 19,
+            "text": "Node 19"
+        },
+        {
+            "key": 20,
+            "text": "Node 20"
+        },
+        {
+            "key": 21,
+            "text": "Node 21"
+        }
+    ],
+    "linkDataArray": [
+        {
+            "from": 1,
+            "to": 2,
+            "community": 7
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "community": 7
+        },
+        {
+            "from": 1,
+            "to": 4,
+            "community": 7
+        },
+        {
+            "from": 1,
+            "to": 5,
+            "community": 7
+        },
+        {
+            "from": 1,
+            "to": 6,
+            "community": 7
+        },
+        {
+            "from": 1,
+            "to": 7,
+            "community": 7
+        },
+        {
+            "from": 1,
+            "to": 8,
+            "community": 7
+        },
+        {
+            "from": 1,
+            "to": 9,
+            "community": 7
+        },
+        {
+            "from": 1,
+            "to": 10,
+            "community": 7
+        },
+        {
+            "from": 1,
+            "to": 11,
+            "community": 7
+        },
+        {
+            "from": 11,
+            "to": 12,
+            "community": 6
+        },
+        {
+            "from": 11,
+            "to": 13,
+            "community": 6
+        },
+        {
+            "from": 11,
+            "to": 14,
+            "community": 6
+        },
+        {
+            "from": 11,
+            "to": 15,
+            "community": 6
+        },
+        {
+            "from": 11,
+            "to": 16,
+            "community": 6
+        },
+        {
+            "from": 11,
+            "to": 17,
+            "community": 6
+        },
+        {
+            "from": 11,
+            "to": 18,
+            "community": 6
+        },
+        {
+            "from": 18,
+            "to": 19,
+            "community": 6
+        },
+        {
+            "from": 18,
+            "to": 20,
+            "community": 6
+        },
+        {
+            "from": 18,
+            "to": 21,
+            "community": 6
+        }
+    ],
+    "numCommunities": 2
+}

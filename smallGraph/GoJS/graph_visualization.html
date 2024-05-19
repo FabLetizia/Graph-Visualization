@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>GoJS Grafo</title>
+  <title>GoJS Graph</title>
   <script src="https://unpkg.com/gojs/release/go.js"></script>
 </head>
 <body>
   <div id="myDiagramDiv" style="width: 300px; height: 200px; border: 1px solid black"></div>
   <script>
-    // Funzione per generare colori in modo dinamico
     function generateColors(num) {
       const colors = [];
       for (let i = 0; i < num; i++) {
@@ -19,10 +18,10 @@
     fetch('graph.json')
       .then(response => response.json())
       .then(data => {
-        const colors = generateColors(data.numCommunities);  // Generazione dei colori basata sul numero di comunità
+        const colors = generateColors(data.numCommunities);
         initializeDiagram(data.nodeDataArray, data.linkDataArray, colors);
       })
-      .catch(error => console.error('Errore nel caricamento del file JSON:', error));
+      .catch(error => console.error('Error loading JSON file:', error));
 
     function initializeDiagram(nodeDataArray, linkDataArray, colors) {
       var $ = go.GraphObject.make;
