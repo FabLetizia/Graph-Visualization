@@ -1,0 +1,12 @@
+AuthorHash: Corrispondenza tra ID vertici e autori (ID Autore + 1 = ID nodo)
+description: Rappresentazione del grafo con questa struttura:
+	nodo_1	nodo_2	lista_topic
+	
+TopicHash: Corrispondenza ID topic e descrizione del topic
+
+DensestSubgraph: insieme di nodi più denso (approx)
+Communities: insieme di comunità
+In questi file la struttura è:
+	nodo_1	nodo_2	community_id
+	
+
