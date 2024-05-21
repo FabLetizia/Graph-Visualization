@@ -6,15 +6,16 @@ It takes as input a graph stored in txt format where each line is composed of 3 
 The code is realised for two types of graph:
 (1) The smallGraph folder contains code for displaying small graphs (order of tens of nodes) using the networkX library or the GoJS software.
 
+with networkX
 
 ![networkX](./images/smallGraphNx.png)
 
-with networkX
 
+with GoJS
 
 ![GoJS](./images/smallGraphGoJS.png)
 
-with GoJS
+
 
 
 (2) The bigGraph folder contains code for visualising large graphs (order of hundreds/thousands of nodes) using the networkX library and the ForcedGraph software.
