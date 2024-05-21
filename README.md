@@ -8,14 +8,17 @@ The code is realised for two types of graph:
 
 
 ![networkX](./images/smallGraphNx.png)
+
 with networkX
 
 
 ![GoJS](./images/smallGraphGoJS.png)
+
 with GoJS
 
 
 (2) The bigGraph folder contains code for visualising large graphs (order of hundreds/thousands of nodes) using the networkX library and the ForcedGraph software.
+
 ![ForcedGraph](./images/communities.png)
 
 
